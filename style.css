@@ -1,0 +1,104 @@
+article
+{
+    padding:10px;
+    border:hidden; 
+    margin-top:10px;
+    text-align:justify;
+}
+
+body {
+       background-color: #dfe0de;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 14px;
+       margin: 35px;
+      }
+
+header
+{
+    padding:10px;
+    text-align:center;
+    font-size:40px;
+    background-image: url("FF247-site-team-featured-1024x400.jpg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+nav
+{
+    text-align:center;
+}
+
+footer
+{
+    text-align:center;
+}
+
+ul li
+{
+    display:inline;
+    padding-left:5px;
+    padding-right:5px;
+    text-align:left;
+    font-size:16px;
+    font-weight:bold;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+/* The below css has been taken entirely from W3 school
+/* Create two unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+a:link {
+color: none;    
+background-color: transparent;
+text-decoration: none;
+}
+
+a:visited {
+    color: transparent;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+color: red;
+background-color: transparent;
+text-decoration: none; 
+
+}
+
+a:active {
+    background-color:transparent; 
+    text-decoration: none; 
+}
+
+.leagues {
+display: list-item; /* to override the 'inline' property used for the navigation menu links, I created this class with 'list-item property. Only thing is it shows two dots in the same line for the first item in the list*/
+font-weight: normal;
+font-size: 14px; /*I had to set the font size property again at the same value as in the body. Otherwise it looks different being in a class. */
+}
